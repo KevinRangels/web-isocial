@@ -1,0 +1,64 @@
+body {
+  background: #21455c;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #ffffff 3px solid;
+  opacity: 0.8;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff !important;
+}
+
+#seccion-inicio {
+  background: url("../img/pexels-photo-273691.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#seccion-inicio .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+#seccion-inicio .inicio-inner {
+    padding-top: 150px;
+}
+
+#seccion-inicio .card-form {
+  opacity: 0.8;
+}
+
+#seccion-inicio .fa {
+    color: #fff;
+    background: #008ed6;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#seccion-perfil .fa, #share-section .fa {
+  color: #fff;
+  background: #21455c;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.btn-outline-light:hover{
+    color: #000;
+}
